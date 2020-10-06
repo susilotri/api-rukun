@@ -1,0 +1,123 @@
+{
+	"id": "690a30cc-67a8-97dd-610b-62c0a5656527",
+	"name": "Api Rukun",
+	"description": "",
+	"order": [
+		"fb49a5f8-eb1d-0669-003c-a86c908b6dbb",
+		"6917589d-9d53-d879-6fd4-f1c6530d7d2c",
+		"eb97c4a9-b9af-520b-9459-0a96dcc70bda"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1601992236518,
+	"owner": "11973531",
+	"public": false,
+	"requests": [
+		{
+			"id": "6917589d-9d53-d879-6fd4-f1c6530d7d2c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "690a30cc-67a8-97dd-610b-62c0a5656527",
+			"data": [
+				{
+					"key": "email",
+					"value": "susilotri48@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "welcome",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601997053612,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "eb97c4a9-b9af-520b-9459-0a96dcc70bda",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/index",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "690a30cc-67a8-97dd-610b-62c0a5656527",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/index",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601997365100,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fb49a5f8-eb1d-0669-003c-a86c908b6dbb",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "690a30cc-67a8-97dd-610b-62c0a5656527",
+			"data": [
+				{
+					"key": "name",
+					"value": "Tri susilo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "susilotri48@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "welcome",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601996205233,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
